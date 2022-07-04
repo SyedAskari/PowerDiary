@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B759955B-CFC7-4EB6-A706-FB5229F8B563}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F1D95267-4418-4374-85F5-9684B9F968F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{00F7C54C-2058-4433-A2FD-6CEBB2C959C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{ECD761B2-34DD-4C72-9305-680F0A73556D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{60164871-1B55-4FB1-AEF4-4440E34844C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerDiary.ChatHistory.Domain", "PowerDiary.ChatHistory.Domain\PowerDiary.ChatHistory.Domain.csproj", "{DE901402-6967-454B-B061-70C9066643B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerDiary.ChatHistory.Application", "PowerDiary.ChatHistory.Application\PowerDiary.ChatHistory.Application.csproj", "{9914E1F5-FAE4-4A66-B60C-16F434EC6C90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerDiary.ChatHistory.Persistance", "PowerDiary.ChatHistory.Persistance\PowerDiary.ChatHistory.Persistance.csproj", "{E18B0183-701A-46D0-A207-866E71E6BD85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerDiary.ChatHistory.Api", "PowerDiary.ChatHistory.Api\PowerDiary.ChatHistory.Api.csproj", "{90FE1BBE-6804-42C9-840D-13C88218C7A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerDiary.ChatHistory.Application.UnitTests", "PowerDiary.ChatHistory.Application.UnitTests\PowerDiary.ChatHistory.Application.UnitTests.csproj", "{D40F06DC-340B-4A64-8248-D52EAB5073DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerDiary.ChatHistory.Persistance.IntegrationTests", "PowerDiary.ChatHistory.Persistance.IntegrationTests\PowerDiary.ChatHistory.Persistance.IntegrationTests.csproj", "{E3CC3925-FD54-47B5-8970-349C82D44351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerDiary.ChatHistory.Api.IntegrationTests", "PowerDiary.ChatHistory.Api.IntegrationTests\PowerDiary.ChatHistory.Api.IntegrationTests.csproj", "{DB42A671-ADD6-4ACC-904E-954541D5A503}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE901402-6967-454B-B061-70C9066643B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE901402-6967-454B-B061-70C9066643B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE901402-6967-454B-B061-70C9066643B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE901402-6967-454B-B061-70C9066643B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9914E1F5-FAE4-4A66-B60C-16F434EC6C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9914E1F5-FAE4-4A66-B60C-16F434EC6C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9914E1F5-FAE4-4A66-B60C-16F434EC6C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9914E1F5-FAE4-4A66-B60C-16F434EC6C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E18B0183-701A-46D0-A207-866E71E6BD85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18B0183-701A-46D0-A207-866E71E6BD85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18B0183-701A-46D0-A207-866E71E6BD85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18B0183-701A-46D0-A207-866E71E6BD85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90FE1BBE-6804-42C9-840D-13C88218C7A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90FE1BBE-6804-42C9-840D-13C88218C7A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90FE1BBE-6804-42C9-840D-13C88218C7A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90FE1BBE-6804-42C9-840D-13C88218C7A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D40F06DC-340B-4A64-8248-D52EAB5073DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D40F06DC-340B-4A64-8248-D52EAB5073DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D40F06DC-340B-4A64-8248-D52EAB5073DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D40F06DC-340B-4A64-8248-D52EAB5073DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3CC3925-FD54-47B5-8970-349C82D44351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3CC3925-FD54-47B5-8970-349C82D44351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3CC3925-FD54-47B5-8970-349C82D44351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3CC3925-FD54-47B5-8970-349C82D44351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB42A671-ADD6-4ACC-904E-954541D5A503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB42A671-ADD6-4ACC-904E-954541D5A503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB42A671-ADD6-4ACC-904E-954541D5A503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB42A671-ADD6-4ACC-904E-954541D5A503}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00F7C54C-2058-4433-A2FD-6CEBB2C959C3} = {B759955B-CFC7-4EB6-A706-FB5229F8B563}
+		{ECD761B2-34DD-4C72-9305-680F0A73556D} = {B759955B-CFC7-4EB6-A706-FB5229F8B563}
+		{60164871-1B55-4FB1-AEF4-4440E34844C3} = {B759955B-CFC7-4EB6-A706-FB5229F8B563}
+		{DE901402-6967-454B-B061-70C9066643B5} = {ECD761B2-34DD-4C72-9305-680F0A73556D}
+		{9914E1F5-FAE4-4A66-B60C-16F434EC6C90} = {ECD761B2-34DD-4C72-9305-680F0A73556D}
+		{E18B0183-701A-46D0-A207-866E71E6BD85} = {60164871-1B55-4FB1-AEF4-4440E34844C3}
+		{90FE1BBE-6804-42C9-840D-13C88218C7A4} = {00F7C54C-2058-4433-A2FD-6CEBB2C959C3}
+		{D40F06DC-340B-4A64-8248-D52EAB5073DB} = {F1D95267-4418-4374-85F5-9684B9F968F4}
+		{E3CC3925-FD54-47B5-8970-349C82D44351} = {F1D95267-4418-4374-85F5-9684B9F968F4}
+		{DB42A671-ADD6-4ACC-904E-954541D5A503} = {F1D95267-4418-4374-85F5-9684B9F968F4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09A67627-EFEE-465C-AD9E-45F65B84468F}
+	EndGlobalSection
+EndGlobal
